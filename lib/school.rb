@@ -9,9 +9,9 @@ class School
   end 
   
   def add_student(name, grade)
-    if name.has_key?
-    # student = self.map{|n, g| }
+    if student = name.has_key?(grade)
     @roster << student 
+    end 
   end 
   
 end 
