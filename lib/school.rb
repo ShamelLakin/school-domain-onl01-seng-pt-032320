@@ -9,6 +9,9 @@ class School
   end 
   
   def add_student(name, grade)
+    @roster.each do |key, value|
+  puts "#{key}: #{value}"
+end
     if student = name.has_key?(grade)
     @roster << student 
     end 
