@@ -9,7 +9,7 @@ class School
   end 
   
   def add_student(name, grade)
-    binding.pry
+    if name.has_key?
     # student = self.map{|n, g| }
     @roster << student 
   end 
